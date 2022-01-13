@@ -1,4 +1,4 @@
-const CalculatorButton = ({ number, value }) => {
+const CalculatorButton = ({ value }) => {
   const numberMap = {
     1: 'one',
     2: 'two',
@@ -13,7 +13,6 @@ const CalculatorButton = ({ number, value }) => {
   };
   const operatorMatch = /[/+\-*=]/;
   const numberMatch = /[0-9.C]/;
-
   const classBase = 'text-2xl font-semibold py-2 px-4 border rounded';
   const numBase =
     'number-button text-slate-800 col-span-1 bg-transparent hover:bg-slate-200 border-slate-400 hover:border-transparent';
@@ -33,21 +32,6 @@ const CalculatorButton = ({ number, value }) => {
   } else {
     classes = classBase;
   }
-
-  // switch (value) {
-  //   case '<':
-  //     classes = `${classes} col-start-2 bg-red-300 hover:bg-red-400 border-red-300 hover:border-red-400`;
-  //     break;
-  //   case '+':
-  //     classes = `${classes} ${operatorBase}`;
-  //     break;
-  //   case '0':
-  //     classes = `${classes} ${numBase} col-span-2`;
-  //     break;
-  //   default:
-  //     classes = `${classes} ${numBase}`;
-  //     break;
-  // }
 
   return (
     <button id={numberMap[value]} className={classes}>

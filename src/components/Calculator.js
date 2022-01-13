@@ -3,9 +3,9 @@ import CalculatorButton from './CalculatorButton';
 
 const Calculator = () => {
   return (
-    <div className="calculator container w-96 mx-auto mt-20 border-solid border-2">
+    <div className="calculator container w-96 mx-auto mt-20 border-solid border-2 divide-y divide-gray-200">
       <Display />
-      <div className="calculator-buttons grid grid-cols-4 grid-rows-5 gap-3 m-4">
+      <div className="calculator-buttons grid grid-cols-4 grid-rows-5 gap-3 p-4">
         <CalculatorButton value="<" />
         <CalculatorButton value="C" />
         <CalculatorButton value="/" />

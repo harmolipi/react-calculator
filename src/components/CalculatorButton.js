@@ -1,4 +1,4 @@
-const CalculatorButton = ({ value }) => {
+const CalculatorButton = ({ value, handleClick }) => {
   const numberMap = {
     1: 'one',
     2: 'two',
@@ -10,7 +10,16 @@ const CalculatorButton = ({ value }) => {
     8: 'eight',
     9: 'nine',
     0: 'zero',
+    C: 'clear',
+    '.': 'decimal',
+    '+': 'add',
+    '-': 'subtract',
+    '*': 'multiply',
+    '/': 'divide',
+    '=': 'equals',
+    '<': 'backspace',
   };
+
   const operatorMatch = /[/+\-*=]/;
   const numberMatch = /[0-9.C]/;
   const classBase = 'text-2xl font-semibold py-2 px-4 border rounded';
@@ -34,7 +43,7 @@ const CalculatorButton = ({ value }) => {
   }
 
   return (
-    <button id={numberMap[value]} className={classes}>
+    <button id={numberMap[value]} className={classes} onClick={handleClick}>
       {value}
     </button>
   );

@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Created as part of [freeCodeCamp](https://www.freecodecamp.org) curriculum.
 
-## Available Scripts
+View on [Github](https://github.com/harmolipi/react-calculator).
 
-In the project directory, you can run:
+## Functionality
 
-### `npm start`
+This is the [Calculator](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-javascript-calculator) project, where I make a calculator in the browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Thoughts
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This was a cool project, because it was a return back to my first big project in learning JavaScript, which was also a [Calculator](https://www.github.com/harmolipi/calculator). That one was for me at the time (the budding programmer that I was), a horrid mess of spaghetti code, that only eventually accidentally worked with much tweaking. I remember really not having a good time with it, and indefinitely putting off returning to improve and refactor it.
 
-### `npm test`
+Well, now I was surprised to see a calculator assignment in freeCodeCamp's curriculum as well, and felt like it was a return to that first big project, now that I'm older and wiser. And indeed, whereas the last one took me a while to finish, I was able to knock this one out in a day. I think what made the difference was the combination between simply knowing some better practices as far as organizing code goes, and also having React at hand, which made working with and updating the UI so much easier.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Anyway, as always, this one can certainly be refactored (primarily to do something about that massive if/else if/else tree in the `Calculator` component), but I'm leaving it for now since it passes the freeCodeCamp tests, and perhaps I'll return to it once more in the future.
 
-### `npm run build`
+God bless.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-Niko Birbilis
